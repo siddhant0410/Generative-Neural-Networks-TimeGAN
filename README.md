@@ -38,3 +38,4 @@ python main_timegan.py \
   --batch_size 128 \
   --metric_iteration 10
 
+## Results :
