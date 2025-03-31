@@ -25,3 +25,16 @@ TimeGAN combines adversarial training with supervised sequence learning and auto
 ### 1. Install Dependencies
 pip install -r requirements.txt
 
+### 2. Command to Run
+Once the dependencies have been installed run the below command
+```bash
+python main_timegan.py \
+  --data_name ARKF \
+  --seq_len 24 \
+  --module gru \
+  --hidden_dim 24 \
+  --num_layer 3 \
+  --iterations 5000 \
+  --batch_size 128 \
+  --metric_iteration 10
+
