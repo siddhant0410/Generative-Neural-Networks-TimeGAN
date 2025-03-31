@@ -37,5 +37,40 @@ python main_timegan.py \
   --iterations 5000 \
   --batch_size 128 \
   --metric_iteration 10
+```
 
 ## Results :
+### python main_timegan.py --data_name heart --seq_len 24 --module gru --hidden_dim 24 --num_layer 2 --iterations 1000 --batch_size 128 --metric_iteration 10
+Iteration 1: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 2: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 3: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 4: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 5: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 6: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 7: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 8: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 9: Discriminative Score = 1.0000, Predictive Score = 0.2070
+Iteration 10: Discriminative Score = 1.0000, Predictive Score = 0.2070
+
+Average Discriminative Score: 1.0000 ± 0.0000
+Average Predictive Score: 0.2070 ± 0.0000
+![5)](https://github.com/user-attachments/assets/d3e7aba2-0e61-4e64-a8f7-248faeb3a6a6)
+
+### python main_timegan.py --data_name ARKF --seq_len 24 --module gru --hidden_dim 24 --num_layer 3 --iterations 5000 --batch_size 128 --metric_iteration 10 
+
+Evaluating...
+Iteration 1: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 2: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 3: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 4: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 5: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 6: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 7: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 8: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 9: Discriminative Score = 1.0000, Predictive Score = 0.1635
+Iteration 10: Discriminative Score = 1.0000, Predictive Score = 0.1635
+
+Average Discriminative Score: 1.0000 ± 0.0000
+Average Predictive Score: 0.1635 ± 0.0000
+![Uploading 7.).png…]()
+
